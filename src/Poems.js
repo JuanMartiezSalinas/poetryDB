@@ -37,7 +37,7 @@ const Poems = () => {
     );
   } else if (!loading && data.length > 0) {
     return (
-      <section className="section">
+      <section className="section ">
         <h4 className="poems-count">{poems} poems</h4>
         {data.map((poem, index) => {
           return (

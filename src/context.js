@@ -1,7 +1,6 @@
 /** @format */
 
 import React, { useState, useEffect, useContext } from "react";
-import pagination from "./paginate";
 
 const AppContext = React.createContext();
 
